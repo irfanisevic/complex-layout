@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LAYOUT COMPLEX BERHASIL!!!</title>
+    <style>
+      :root {
+        --main: lightgray;
+        --secondary: tomato;
+        --font-clr: coral;
+      }
+
+      * {
+        padding: 0;
+        margin: 0;
+        font-family: serif;
+        font-size: 30px;
+        color: white;
+        
+       
+      }
+      body {
+        display: flex;
+        flex-direction: row;
+      }
+      #wrapper-div {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        min-height: 620px;
+
+        margin: auto;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+      }
+      #left-div {
+        display: flex;
+        flex-direction: column;
+        width: 55.4%;
+        min-height: 600px;
+
+        align-items: center;
+        justify-content: space-between;
+      }
+      #upper-left {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+
+        min-height: 300px;
+
+        justify-content: space-between;
+        align-items: center;
+      }
+      #a-div {
+        display: flex;
+        flex-direction: row;
+        width: 37%;
+        min-height: 300px;
+        background-color: var(--main);
+        justify-content: center;
+        align-items: center;
+      }
+      #b-div {
+        display: flex;
+        flex-direction: row;
+        width: 62%;
+        min-height: 300px;
+        background-color: var(--main);
+        justify-content: center;
+        align-items: center;
+      }
+      #downside-left {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        min-height: 295px;
+
+        justify-content: space-between;
+      }
+      #cd-whole {
+        display: flex;
+        flex-direction: column;
+        width: 27%;
+        min-height: 285px;
+
+        align-items: center;
+        justify-content: space-between;
+      }
+      #c-part {
+        display: flex;
+        flex-direction: column;
+        min-height: 145px;
+        width: 100%;
+        background-color: var(--main);
+        justify-content: center;
+        align-items: center;
+      }
+      #d-part {
+        display: flex;
+        flex-direction: column;
+        min-height: 145px;
+        width: 100%;
+        background-color: var(--main);
+        justify-content: center;
+        align-items: center;
+      }
+      #e-part {
+        display: flex;
+        flex-direction: row;
+        width: 72%;
+        min-height: 285px;
+        background-color: var(--main);
+        align-items: center;
+        justify-content: center;
+      }
+      #right-div {
+        display: flex;
+        flex-direction: row;
+        width: 44%;
+        min-height: 600px;
+
+        align-items: center;
+        justify-content: space-between;
+      }
+      #f-part {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        min-height: 600px;
+        background-color: var(--main);
+        justify-content: center;
+        align-items: center;
+        margin-right: 5px;
+      }
+      #g-part {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        min-height: 600px;
+      }
+      #g-component {
+        display: flex;
+        flex-direction: column;
+        width: 100;
+        min-height: 450px;
+        background-color: var(--main);
+        justify-content: center;
+        align-items: center;
+      }
+      #h-component {
+        display: flex;
+        flex-direction: column;
+        width: 100;
+        min-height: 145px;
+        background-color: var(--main);
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper-div">
+      <div id="left-div">
+        <div id="upper-left">
+          <div id="a-div">A</div>
+          <div id="b-div">B</div>
+        </div>
+        <div id="downside-left">
+          <div id="cd-whole">
+            <div id="c-part">C</div>
+            <div id="d-part">D</div>
+          </div>
+          <div id="e-part">E</div>
+        </div>
+      </div>
+      <div id="right-div">
+        <div id="f-part">F</div>
+        <div id="g-part">
+          <div id="g-component">G</div>
+          <div id="h-component">H</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
